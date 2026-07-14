@@ -14,3 +14,4 @@ app.post("/resolve",(req,res)=>{
  res.json({detected:true,sourceUrl:url,message:"Link detected. Configure an authorized media provider for content you own or have permission to download."});
 });
 app.listen(PORT,"0.0.0.0",()=>console.log(`Server listening on ${PORT}`));
+{"name":"toksave-authorized-backend","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.js"},"dependencies":{"cors":"^2.8.5","express":"^5.1.0"}}
